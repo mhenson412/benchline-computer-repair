@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Benchline Computer Repair — free initial diagnostics, upfront estimates, and affordable PC repair." />
+  <meta name="theme-color" content="#0b0f14" />
+  <title>Benchline Computer Repair | Clear answers. Fair repairs.</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Benchline Computer Repair home">
+        <img src="assets/logo-mark.svg" alt="" class="brand-mark" />
+        <span>
+          <strong>BENCHLINE</strong>
+          <small>COMPUTER REPAIR</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav id="siteNav" class="site-nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#process">How It Works</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="button button-small">Free Diagnostic</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid"></div>
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">PC • LAPTOP • LINUX • GAMING SYSTEMS</p>
+          <h1>Clear answers.<br><span>Fair repairs.</span></h1>
+          <p class="hero-copy">
+            Affordable computer repair without the runaround. Free initial diagnostics,
+            upfront estimates, and no surprise repairs.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">Request a Free Diagnostic</a>
+            <a class="button button-ghost" href="#services">View Services & Pricing</a>
+          </div>
+
+          <div class="trust-row">
+            <div><strong>$0</strong><span>Initial diagnostic</span></div>
+            <div><strong>Upfront</strong><span>Written estimates</span></div>
+            <div><strong>No</strong><span>Unapproved repairs</span></div>
+          </div>
+        </div>
+
+        <aside class="diagnostic-card">
+          <div class="status-line">
+            <span class="status-dot"></span>
+            <span>LAUNCH STATUS</span>
+          </div>
+          <h2>50% OFF LABOR</h2>
+          <p>For the first 10 qualifying customers.</p>
+          <div class="spots">
+            <span>Launch spots remaining</span>
+            <strong id="spotsRemaining">10 / 10</strong>
+          </div>
+          <div class="meter" aria-hidden="true"><span id="spotsMeter"></span></div>
+          <p class="fine-print">Parts are not discounted. One launch offer per customer. Cannot be combined with other labor discounts.</p>
+          <a href="#contact" class="text-link">Claim a launch spot →</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="process">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">THE BENCHLINE PROCESS</p>
+          <h2>Computer repair without the guesswork.</h2>
+          <p>Every job follows the same documented path from diagnosis to verification.</p>
+        </div>
+
+        <div class="process-grid">
+          <article><span>01</span><h3>Diagnose</h3><p>We verify the reported problem and determine the likely cause.</p></article>
+          <article><span>02</span><h3>Explain</h3><p>You get a straightforward explanation of what we found.</p></article>
+          <article><span>03</span><h3>Quote</h3><p>You'll receive an estimate before chargeable work begins.</p></article>
+          <article><span>04</span><h3>Approve</h3><p>You decide whether the proposed repair moves forward.</p></article>
+          <article><span>05</span><h3>Repair</h3><p>We complete only the work you authorized.</p></article>
+          <article><span>06</span><h3>Verify</h3><p>The system is tested before it is returned to you.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SERVICES & PRICING</p>
+          <h2>Simple pricing. No hidden labor.</h2>
+          <p>Listed prices are labor unless otherwise stated. Required parts are quoted separately.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card featured">
+            <div class="service-top">
+              <span class="service-icon">DIAG</span>
+              <span class="price free">FREE</span>
+            </div>
+            <h3>Initial Computer Diagnostic</h3>
+            <p>Initial inspection and troubleshooting of the reported problem, including applicable hardware, storage, memory, boot, operating-system, and thermal checks.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">FIX</span><span class="price">$25</span></div>
+            <h3>Quick Fix</h3>
+            <p>Minor configuration, driver, software, or hardware issue requiring minimal repair time.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">TUNE</span><span class="price">$45</span></div>
+            <h3>PC Tune-Up</h3>
+            <p>Startup optimization, software cleanup, updates, system health checks, and performance review.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">SAFE</span><span class="price">$65</span></div>
+            <h3>Malware Cleanup</h3>
+            <p>Malware/adware removal, browser cleanup, updates, system inspection, and verification.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">OS</span><span class="price">$60</span></div>
+            <h3>Windows / Linux Installation</h3>
+            <p>Fresh operating-system installation, drivers, updates, and initial setup. Software licenses are not included.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">AIR</span><span class="price">$35 / $45</span></div>
+            <h3>Internal Cleaning</h3>
+            <p>Desktop: $35. Laptop: $45. Thermal paste replacement available for +$15 with applicable service.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">RAM</span><span class="price">$25</span></div>
+            <h3>RAM Installation</h3>
+            <p>Installation and verification of compatible memory. Customer-supplied parts are welcome.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">SSD</span><span class="price">$30+</span></div>
+            <h3>SSD / HDD Installation</h3>
+            <p>Desktop: $30. Laptop: $40. SSD upgrade with operating-system migration: $65 labor.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">GPU</span><span class="price">$35</span></div>
+            <h3>GPU / PSU / Add-In Card</h3>
+            <p>Installation of compatible graphics cards, power supplies, and expansion cards.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">DATA</span><span class="price">$40+</span></div>
+            <h3>Data Transfer</h3>
+            <p>Up to 500 GB: $40. 500 GB–2 TB: $60. From normally functioning storage devices.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">BUILD</span><span class="price">$100</span></div>
+            <h3>Custom PC Assembly</h3>
+            <p>Assembly, cable management, BIOS configuration, boot verification, and basic hardware testing.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-top"><span class="service-icon">TEST</span><span class="price">$125</span></div>
+            <h3>Assembly + OS + Stress Test</h3>
+            <p>Complete assembly plus operating-system installation, configuration, updates, and system testing.</p>
+          </article>
+        </div>
+
+        <p class="scope-note">
+          <strong>Not currently offered:</strong> board-level microsoldering, advanced liquid-damage repair,
+          physical hard-drive recovery, phone/tablet repair, or advanced Mac logic-board repair.
+        </p>
+      </div>
+    </section>
+
+    <section class="section launch-section">
+      <div class="container launch-grid">
+        <div>
+          <p class="eyebrow">LAUNCH SPECIAL</p>
+          <h2>First 10 customers get 50% off eligible service labor.</h2>
+          <p>
+            Benchline is launching with introductory labor pricing so the first customers can
+            receive real value while we build a track record of documented repairs and customer feedback.
+          </p>
+        </div>
+        <div class="launch-example">
+          <span>Example</span>
+          <div><small>Standard labor</small><strong>$60</strong></div>
+          <div><small>Launch labor</small><strong>$30</strong></div>
+          <small>Parts remain at normal price.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHY BENCHLINE</p>
+          <h2>Repair decisions you can actually understand.</h2>
+        </div>
+
+        <div class="why-grid">
+          <article><h3>Free Initial Diagnostics</h3><p>You shouldn't have to pay just to learn what is wrong.</p></article>
+          <article><h3>Upfront Pricing</h3><p>You receive the estimated cost before chargeable work begins.</p></article>
+          <article><h3>No Surprise Repairs</h3><p>Additional work requires authorization before it is performed.</p></article>
+          <article><h3>Customer-Supplied Parts</h3><p>Bring your own compatible RAM, SSD, GPU, or other upgrade.</p></article>
+          <article><h3>Repair Before Replacement</h3><p>When practical, we'll explain whether repairing or upgrading the existing system makes sense.</p></article>
+          <article><h3>Clear Explanations</h3><p>You don't need to be a computer expert to understand what you're paying for.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonial-section">
+      <div class="container testimonial-grid">
+        <div>
+          <p class="eyebrow">CUSTOMER TESTIMONIAL PROGRAM</p>
+          <h2>Tell us how we did.</h2>
+          <p>
+            After your repair, you may submit an honest testimonial about your experience.
+            If you authorize Benchline to feature that testimonial in our marketing, you'll receive
+            <strong>10% off labor on your next eligible service.</strong>
+          </p>
+          <p class="fine-print">
+            Feedback does not need to be positive to qualify. This discount is not conditioned on a Google,
+            Yelp, or other third-party review. Where an incentivized testimonial is displayed by Benchline,
+            the incentive should be disclosed.
+          </p>
+        </div>
+        <div class="quote-card">
+          <span class="quote-mark">“</span>
+          <p>Customer feedback will appear here after launch.</p>
+          <small>— Future Benchline customer</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Before you bring in a computer.</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Are diagnostics really free?</summary>
+            <p>Yes. Benchline's standard initial diagnostic is free. If troubleshooting requires unusually extensive testing or specialized work beyond the standard diagnostic scope, you'll be contacted before any chargeable work begins.</p>
+          </details>
+          <details>
+            <summary>Will you repair something without asking me?</summary>
+            <p>No. Chargeable work requires customer authorization.</p>
+          </details>
+          <details>
+            <summary>Do your prices include parts?</summary>
+            <p>No. Listed service prices represent labor unless specifically stated otherwise. Required parts are quoted separately.</p>
+          </details>
+          <details>
+            <summary>Can I bring my own parts?</summary>
+            <p>Yes. Customer-supplied parts are welcome, though compatibility and condition must be verified before installation.</p>
+          </details>
+          <details>
+            <summary>Do you work on Macs?</summary>
+            <p>Basic diagnosis and certain software or component services may be considered case-by-case. Advanced Mac logic-board repair is not currently offered.</p>
+          </details>
+          <details>
+            <summary>Can you recover files from a broken hard drive?</summary>
+            <p>Basic data transfer from functioning storage is available. Physical drive recovery and advanced data-recovery services are not currently offered.</p>
+          </details>
+          <details>
+            <summary>Will my files be safe?</summary>
+            <p>Reasonable care is taken to protect customer data, but hardware failure and repair work can involve data-loss risk. Customers should maintain backups of important data whenever possible.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">REQUEST A FREE DIAGNOSTIC</p>
+          <h2>Tell us what's going on.</h2>
+          <p>
+            Send a few details about your computer and the problem you're seeing. This form does not
+            authorize paid repairs or create an obligation to proceed.
+          </p>
+
+          <div class="contact-note">
+            <strong>Before public launch:</strong>
+            <span>Replace the placeholder contact information and BHGS registration fields in this site.</span>
+          </div>
+        </div>
+
+        <form id="diagnosticForm" class="diagnostic-form">
+          <label>
+            Name
+            <input type="text" name="name" required autocomplete="name" />
+          </label>
+          <div class="form-row">
+            <label>
+              Email
+              <input type="email" name="email" required autocomplete="email" />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" autocomplete="tel" />
+            </label>
+          </div>
+          <label>
+            Device type
+            <select name="device" required>
+              <option value="">Select one</option>
+              <option>Desktop PC</option>
+              <option>Laptop</option>
+              <option>Custom / Gaming PC</option>
+              <option>Linux System</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            Manufacturer & model
+            <input type="text" name="model" placeholder="Example: Dell Inspiron 15" />
+          </label>
+          <label>
+            What's going on?
+            <textarea name="issue" rows="5" required placeholder="Describe the problem, symptoms, error messages, or anything unusual."></textarea>
+          </label>
+          <label>
+            When did the problem start?
+            <input type="text" name="started" />
+          </label>
+          <label>
+            Have you already tried anything?
+            <textarea name="tried" rows="3"></textarea>
+          </label>
+          <label>
+            Important data on this device?
+            <select name="data">
+              <option>Unsure</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </label>
+
+          <button type="submit" class="button">Prepare Diagnostic Request</button>
+          <p id="formStatus" class="form-status" role="status"></p>
+          <p class="fine-print">This V1 form opens your email app. Replace the placeholder email in <code>script.js</code> before launch.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <img src="assets/logo-mark.svg" alt="" class="brand-mark" />
+          <span><strong>BENCHLINE</strong><small>COMPUTER REPAIR</small></span>
+        </a>
+        <p>Clear answers. Fair repairs.</p>
+      </div>
+
+      <div>
+        <strong>Contact</strong>
+        <p>
+          <span id="footerEmail">[BUSINESS EMAIL]</span><br>
+          <span>[BUSINESS PHONE]</span><br>
+          <span>[SERVICE AREA]</span>
+        </p>
+      </div>
+
+      <div>
+        <strong>Business Information</strong>
+        <p>
+          BHGS Electronic Service Dealer Registration:<br>
+          <span>[INSERT REGISTRATION NUMBER]</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Benchline Computer Repair.</span>
+      <span>Website V1 — pre-launch development build.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
